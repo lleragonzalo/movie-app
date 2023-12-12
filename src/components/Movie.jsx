@@ -13,6 +13,7 @@ function Movie({ movie, size }) {
 export default function movie() {
   return (
     <div className="carousel">
+      <div class="overlay">AGREGAR A FAVORITOS</div>
       <Movie
         width={200}
         height={300}
