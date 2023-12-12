@@ -1,7 +1,74 @@
-.header {
+.App{
   background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
 }
 
 .header h1{
   color: white;
+}
+
+.searchInput{
+  width: 100%;
+  text-align: end;
+}
+
+.searchInput input {
+  width: 50%;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.movieList h1{
+  padding: 20px;
+}
+
+.carousel{
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carousel .movie{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin-right: 10px; 
+}
+
+.carouselFav{
+  width: 100%;
+  height: auto;
+}
+
+.carouselFav .movie{
+  height: 300px;
+}
+
+.favorites h1{
+  padding: 20px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  font-size: 12px;
+  background-color: white;
+  color: #333;
+  text-align: left;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer a{
+  padding: 0 0 0 5px;
+  color: red;
 }

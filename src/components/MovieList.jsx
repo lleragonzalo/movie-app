@@ -1,8 +1,9 @@
+import Movie from './Movie'
+
 function MovieList() {
     return (
       <div className="movieList">
-        <h1>MovieList</h1>
-       
+       <Movie />
       </div>
     );
   }
