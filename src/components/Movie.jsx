@@ -27,3 +27,4 @@ export default function Movie({ movie, size }) {
     </div>
   );
 }
+
