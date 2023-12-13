@@ -56,10 +56,10 @@
   height: 300px;
 }
 
-.movie {
+.movie-wrapper {
   width: 150px;
   transition: transform 0.3s ease-in-out;
-  height: 300px; /* Ajusta la altura según tus preferencias */
+  height: 300px; 
   position: relative;
 }
 
@@ -68,28 +68,27 @@
   cursor: pointer;
 }
 
-.overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
+.movie-wrapper .overlay {
+  font-size: 12px;
   color: white;
-  padding: 10px;
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  background-color: black;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+  transition: 0.5s ease-in-out;
 }
 
-.movie:hover + .overlay {
-  opacity: 1;
+.movie-wrapper:hover .overlay{
+  opacity: 0.7;
 }
-
 
 .favorites h1{
   padding: 20px;
   color: white;
 }
-
 
 .footer {
   display: flex;
