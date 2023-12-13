@@ -17,10 +17,11 @@
 .searchInput{
   width: 100%;
   text-align: end;
+  padding: 0 20px 0 0;
 }
 
 .searchInput input {
-  width: 50%;
+  width: 40%;
   height: 20px;
   border-radius: 5px;
 }
